@@ -5,6 +5,8 @@ Version:    {{{ git_dir_version }}}
 Release:    1%{?dist}
 Summary:    This is a test package.
 
+BuildRequires:  make gcc
+
 License:    GPLv3
 URL:        https://github.com/Massdrop/mdloader
 VCS:        {{{ git_dir_vcs }}}
