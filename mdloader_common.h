@@ -22,7 +22,7 @@
 
 #define PROGRAM_NAME  "Massdrop Loader"
 #define VERSION_MAJOR 1
-#define VERSION_MINOR 6 //0-99
+#define VERSION_MINOR 7 //0-99
 
 #ifdef _WIN32
 #define INITGUID
@@ -203,10 +203,6 @@ void strlower(char *str);
 #define NVMCTRL_USER 0x00804000
 
 #define SLEEP_BETWEEN_WRITES 200
-
-// Configured for 4096 bytes - DS60001507E-page 653
-#define SMARTEEPROM_TARGET_SBLK 1 // 1 block
-#define SMARTEEPROM_TARGET_PSZ 3  // 32 bytes
 
 typedef union {
     struct {
